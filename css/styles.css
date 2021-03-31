@@ -29,10 +29,10 @@ body {
 .card {
   background-color: white;
   border-radius: 15px;
-  width: 326px;
+  width: 332px;
   overflow: hidden;
-  -webkit-box-shadow: 4px 4px 5px #2d3248;
-          box-shadow: 4px 4px 5px #2d3248;
+  -webkit-box-shadow: 0 0 1px #969696;
+          box-shadow: 0 0 1px #969696;
 }
 
 .card-header {
@@ -57,5 +57,23 @@ body {
   border: 5px solid white;
   border-radius: 100%;
   margin-top: calc(-48px - 5px);
+  margin-bottom: 0.9rem;
+}
+
+.card-body h1 {
+  font-size: 1.125rem;
+  color: #2d3248;
+  margin-bottom: 0px;
+}
+
+.card-body h1 span {
+  color: #6a6f81;
+  margin-left: 0.3rem;
+  font-weight: normal;
+}
+
+.card-body p {
+  color: #6a6f81;
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=styles.css.map */
