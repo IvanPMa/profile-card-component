@@ -12,7 +12,7 @@ body {
   background-color: #19a2ae;
   background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat,no-repeat;
-  background-position: right 50vw bottom 50vh,left 50vw top 50vh;
+  background-position: right 50vw bottom 48vh,left 50vw top 50vh;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -34,8 +34,8 @@ body {
   border-radius: 15px;
   width: 332px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 1px #969696;
-          box-shadow: 0 0 1px #969696;
+  -webkit-box-shadow: 0px 0px 20px #969696;
+          box-shadow: 0px 0px 20px #969696;
 }
 
 .card-header {
