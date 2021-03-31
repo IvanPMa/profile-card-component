@@ -1,0 +1,20 @@
+$bg : #19a1ad;
+$bg-card: #ffffff;
+body{
+   background-color: $bg;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+   
+   
+}.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    min-height: 500px;
+    background-color: $bg-card;
+}
+

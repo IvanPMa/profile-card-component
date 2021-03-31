@@ -1,0 +1,22 @@
+body {
+  background-color: #19a1ad;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.flex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.card {
+  min-height: 500px;
+  background-color: #ffffff;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
