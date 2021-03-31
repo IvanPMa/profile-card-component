@@ -1,22 +1,28 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 body {
-  background-color: #19a1ad;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-.flex {
-  width: 100%;
-  height: auto;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.card {
-  min-height: 500px;
-  background-color: #ffffff;
-}
-
-
 /*# sourceMappingURL=styles.css.map */

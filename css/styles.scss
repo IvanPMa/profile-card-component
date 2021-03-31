@@ -1,20 +1,23 @@
-$bg : #19a1ad;
-$bg-card: #ffffff;
+$dark-cyan: hsl(185, 75%, 39%);
+$very-dark-desaturat-blue: hsl(229, 23%, 23%);
+$dark-grayish-blue: hsl(227, 10%, 46%);
+$dark-gray: hsl(0, 0%, 59%);
+$text:'Kumbh Sans', sans-serif;
+//Universal Box Sizing with inheritance
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body{
-   background-color: $bg;
-   background-repeat: no-repeat;
-   background-size: 100%;
-   
-   
-   
-}.flex{
+   background-color: $dark-cyan;
+   font-family: $text;
+}
+.container{
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
-
-.card{
-    min-height: 500px;
-    background-color: $bg-card;
-}
-
