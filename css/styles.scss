@@ -39,6 +39,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10px;
 
         &-image {
             border: 5px solid white;
@@ -58,7 +59,31 @@ body{
         }
         p{
             color: $dark-grayish-blue;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
+
+    &-footer{
+        display: flex;
+        justify-content:space-evenly;
+        border-top: 1px solid #ccc;
+        padding: 10px;
+
+        &-social{
+            text-align: center;
+            h2{
+                font-size: $size-f;
+                color: $very-dark;
+                margin-bottom: 0px;
+            }
+            p{
+                margin-top: 5px;
+                font-size: 0.6rem;
+                color: $dark-gray;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+
 }

@@ -51,6 +51,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 10px;
 }
 
 .card-body-image {
@@ -74,6 +75,34 @@ body {
 
 .card-body p {
   color: #6a6f81;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card-footer-social {
+  text-align: center;
+}
+
+.card-footer-social h2 {
+  font-size: 1.125rem;
+  color: #2d3248;
+  margin-bottom: 0px;
+}
+
+.card-footer-social p {
+  margin-top: 5px;
+  font-size: 0.6rem;
+  color: #969696;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=styles.css.map */
